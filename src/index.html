@@ -10,6 +10,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
+    <form>
+      <label for="ccname">Full name: </label>
+      <input type="text" id="ccname" name="ccname" autocomplete="on" class="input">
+      <label for="cardnumber">Card Number: </label>
+      <input type="number" id="cardnumber" name="cardnumber" autocomplete="off" class="input">
+      <label for="cvc">Card Verification Number (CVC): </label>
+      <input type="number" id="cvc" name="cvc" autocomplete="off" class="input">
+      <label for="cc-exp">CC-exp: </label>
+      <input type="number" id="cc-exp" name="cc-exp" autocomplete="off" class="input">
+      <button type="submit">Submit</button>
+    </form>
     <div class="main">
       <div class="emoji mb-6">💣🤯💥</div>
       <button class="button">Boom?</button>
